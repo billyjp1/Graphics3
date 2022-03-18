@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<scene tolerance="0.005" wireframe="true" lighting="false">
+  <solution.scene.Transformation name="Root" T="0.0 0.0 0.0" R="0.0 0.0 0.0" S="1.0 1.0 1.0">
+    <modeler.scene.PerspectiveCamera name="Camera" eye="5.0 5.0 3.0" target="0.0 0.0 0.0" up="-0.5581804 0.7591253 -0.33490822" fovy="45.0" near="2.0" far="1000.0"/>
+    <modeler.scene.Light name="Light 0" position="6.0 8.0 10.0" ambient="0.1 0.1 0.1" diffuse="0.8 0.8 0.8" specular="2.0 2.0 2.0"/>
+    <solution.scene.Transformation name="Sphere" T="0.0 0.0 0.0" R="0.0 0.0 0.0" S="1.0 1.0 1.0">
+      <solution.shape.Sphere name="Sphere" diffuseColor="0.8 0.2 0.2" specularColor="0.0 0.0 0.0" exponent="40.0"/>
+    </solution.scene.Transformation>
+  </solution.scene.Transformation>
+</scene>

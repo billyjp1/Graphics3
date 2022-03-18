@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<scene tolerance="0.014125375">
+  <solution.scene.Transformation name="Root" T="0.0 0.0 0.0" R="0.0 0.0 0.0" S="1.0 1.0 1.0">
+    <modeler.scene.PerspectiveCamera name="Camera" eye="5.0 5.0 3.0" target="0.0 0.0 0.0" up="-0.5581804 0.7591253 -0.33490822" fovy="45.0" near="2.0" far="1000.0"/>
+    <modeler.scene.Light name="Light 0" position="6.0 8.0 10.0" ambient="0.1 0.1 0.1" diffuse="0.8 0.8 0.8" specular="2.0 2.0 2.0"/>
+    <solution.scene.Transformation name="Vert1" T="0.5 -0.3 2.5" R="0.0 0.0 90.0" S="0.5 1.5 0.5">
+      <solution.shape.Cube name="Vert1" diffuseColor="0.8 0.2 0.2" specularColor="0.0 0.0 1.0" exponent="1.0"/>
+    </solution.scene.Transformation>
+    <solution.scene.Transformation name="Vert2" T="0.5 -0.3 0.5" R="0.0 0.0 0.0" S="1.5 0.5 0.5">
+      <solution.shape.Cube name="Vert2" diffuseColor="0.8 0.2 0.2" specularColor="0.0 0.0 1.0" exponent="1.0"/>
+    </solution.scene.Transformation>
+    <solution.scene.Transformation name="Horz0" T="0.5 -0.3 1.5" R="0.0 0.0 0.0" S="0.5 0.5 1.5">
+      <solution.shape.Cube name="Horz0" diffuseColor="0.8 0.2 0.2" specularColor="0.0 0.0 1.0" exponent="1.0"/>
+    </solution.scene.Transformation>
+    <solution.scene.Transformation name="Horz1" T="-0.5 -0.3 -1.5" R="0.0 90.0 0.0" S="1.5 0.5 0.5">
+      <solution.shape.Cube name="Horz1" diffuseColor="1.0 0.2 0.2" specularColor="0.0 0.0 0.0" exponent="1.0"/>
+    </solution.scene.Transformation>    
+    <solution.scene.Transformation name="Horz2" T="1.5 -0.3 -1.5" R="0.0 0.0 0.0" S="0.5 0.5 1.5">
+      <solution.shape.Cube name="Horz2" diffuseColor="1.0 0.2 0.2" specularColor="0.0 0.0 0.0" exponent="1.0"/>
+    </solution.scene.Transformation>    
+    <solution.scene.Transformation name="Vert0" T="0.5 -0.3 -1.5" R="0.0 0.0 0.0" S="1.5 0.5 0.5">
+      <solution.shape.Cube name="Vert0" diffuseColor="1.0 0.2 0.2" specularColor="0.0 0.0 0.0" exponent="1.0"/>
+    </solution.scene.Transformation>    
+  </solution.scene.Transformation>
+</scene>
